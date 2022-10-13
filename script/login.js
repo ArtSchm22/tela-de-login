@@ -6,11 +6,11 @@ function logar(e){
     const user = JSON.parse(localStorage.getItem("user"))
     const warndiv = document.getElementById("warn")
     if(senha.value == user.senha && email.value == user.email){
-        warndiv.innerText = "Login Correto"
+        warndiv.innerText = "Login Correto!"
         return 
     }
 
-    warndiv.innerText = "login ou senha incorretos"
+    warndiv.innerText = "Login ou senha incorreto!"
 
 }
 

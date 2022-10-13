@@ -33,4 +33,4 @@ function cadastrarUsuario(e){
     localStorage.setItem("user",JSON.stringify(cadastro))
 }
 
-document.getElementById("formi").addEventListener("submit", cadastrarUsuario)
+document.getElementById("form-1").addEventListener("submit", cadastrarUsuario)
