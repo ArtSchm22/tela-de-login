@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(77, 76, 76);
+}
+
+.titulo{
+    margin-bottom: 15px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 200;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    padding: 30px; 
+    border: solid 2px black;
+    border-radius: 30px;
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(237, 240, 243);
+}
+
+input{
+    margin:0 0 20px 0;
+    
+}
+
+button{
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
